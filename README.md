@@ -1,1 +1,1 @@
-android-live-attendance
+attendance

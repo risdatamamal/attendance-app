@@ -26,7 +26,8 @@
         <activity android:name=".views.changepass.ChangePasswordActivity"/>
         <activity android:name=".views.forgotpass.ForgotPasswordActivity" />
         <activity android:name=".views.login.LoginActivity" />
-        <activity android:name=".views.splash.SplashActivity">
+        <activity android:name=".views.splash.SplashActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

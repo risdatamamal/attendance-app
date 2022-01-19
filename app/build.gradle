@@ -16,8 +16,8 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         //BASE_URL
-        buildConfigField "String", "BASE_URL", "\"http://35.240.152.225/api/\""
-        buildConfigField "String", "BASE_IMAGE_URL", "\"http://35.240.152.225/storage/profile/\""
+        buildConfigField "String", "BASE_URL", "\"http://192.168.18.10:8000/api/\""
+        buildConfigField "String", "BASE_IMAGE_URL", "\"http://192.168.18.10:8000/storage/profile/\""
     }
 
     buildTypes {
@@ -32,7 +32,7 @@ android {
     }
     compileOptions {
         targetCompatibility JavaVersion.VERSION_1_8
-        sourceCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility "1.8"
     }
 }
 
